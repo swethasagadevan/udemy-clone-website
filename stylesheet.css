@@ -154,3 +154,12 @@ body{
 .div_footer_one p:hover{
     text-decoration: underline;
 }
+
+.topics__input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
