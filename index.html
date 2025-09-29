@@ -27,7 +27,13 @@
       </div>
       <div class="navbar__sec3">
         <p>Courses</p>
-        <p>My Learning</p>
+        <div class="mylearning">
+          <p>My Learning</p>
+          <div class="mylearning__popup">
+            <p>You did not purchase anything yet</p>
+          </div>
+        </div>
+        
         <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
         <i class="fa-solid fa-bell" style="color: #000000;"></i>
         <i class="fa-solid fa-user" style="color: #000000;"></i>
@@ -47,6 +53,10 @@
      <!-- sale image bar-->
       <div class="container-sale">
           <img src="./images/sale-image.jpg" alt="Sale image">
+          <div class="sale-img__offer">
+            <h2>Udemy Flash sale! 24 hours to save.</h2>
+            <p> Get the top courses for just  499.  Just one day to save but a lifetime to learn</p>
+          </div>
       </div>
 
       <!-- recommended course-->
@@ -93,10 +103,9 @@
       <!-- Topics-->
       <div class="topics">
         <h2>Topics recommended for you</h2>
-
         <!-- textbox for topic recommend-->
          <label for="topics-recomend">Search : </label>
-        <input type="text" class="topics__input" placeholder="Search for any course ...">
+        <input type="text" class="topics__input" placeholder="Search for any course...">
 
         <div class="topics__container">
           <p>Website</p>
@@ -126,7 +135,7 @@
 
         <div class="div_recommended__course">
           <img src="./images/coursetwo.jpg" alt="Course-two-image">
-          <h3>Web Development Bootcamp 2023 | Advance</h3>
+          <h3>100 Days of Code: The Complete Python Pro Bootcamp</h3>
           <p>Col Steele</p>
           <p>3.2 ⭐⭐⭐</p>
           <p>499 <del>1999</del></p>
